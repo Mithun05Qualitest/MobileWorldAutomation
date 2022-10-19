@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-18T15:37:53 IST" name="Default suite" finished-at="2022-10-18T15:39:16 IST" duration-ms="82669">
+    <groups>
+    </groups>
+    <test started-at="2022-10-18T15:37:53 IST" name="Default test" finished-at="2022-10-18T15:39:16 IST" duration-ms="82669">
+      <class name="Qualitest.Mobile.HomePage">
+        <test-method is-config="true" signature="config()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:37:53 IST" name="config" finished-at="2022-10-18T15:37:54 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="appleIphone13MDdefect()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:37:54 IST" name="appleIphone13MDdefect" finished-at="2022-10-18T15:38:10 IST" duration-ms="16765" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://mobileworld.banyanpro.com/mobile.html] but found [https://mobileworld.banyanpro.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://mobileworld.banyanpro.com/mobile.html] but found [https://mobileworld.banyanpro.com/]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Qualitest.Mobile.HomePage.appleIphone13MDdefect(HomePage.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appleIphone13MDdefect -->
+        <test-method signature="appletest()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:38:10 IST" name="appletest" finished-at="2022-10-18T15:38:31 IST" duration-ms="21011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appletest -->
+        <test-method signature="homePageNew()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:38:31 IST" name="homePageNew" finished-at="2022-10-18T15:38:43 IST" duration-ms="11266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNew -->
+        <test-method signature="lenovoDropDowndefect()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:38:43 IST" name="lenovoDropDowndefect" finished-at="2022-10-18T15:38:51 IST" duration-ms="7874" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://mobileworld.banyanpro.com/#lenovo] but found [https://mobileworld.banyanpro.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://mobileworld.banyanpro.com/#lenovo] but found [https://mobileworld.banyanpro.com/]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Qualitest.Mobile.HomePage.lenovoDropDowndefect(HomePage.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenovoDropDowndefect -->
+        <test-method signature="lenovoTest()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:38:51 IST" name="lenovoTest" finished-at="2022-10-18T15:39:04 IST" duration-ms="13363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenovoTest -->
+        <test-method signature="samsungtest()[pri:0, instance:Qualitest.Mobile.HomePage@3f191845]" started-at="2022-10-18T15:39:04 IST" name="samsungtest" finished-at="2022-10-18T15:39:16 IST" duration-ms="12070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samsungtest -->
+      </class> <!-- Qualitest.Mobile.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
